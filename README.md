@@ -1,5 +1,5 @@
-# COURSENAME
-This is the repository for the LinkedIn Learning course `course-name`. The full course is available from [LinkedIn Learning][lil-course-url].
+# Playwright Essential Training: Abstractions, Fixtures, and Complex Scenarios
+This is the repository for the LinkedIn Learning course Playwright Essential Training: Abstractions, Fixtures, and Complex Scenarios. The full course is available from [LinkedIn Learning][lil-course-url].
 
 _See the readme file in the main branch for updated instructions and information._
 ## Instructions
