@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is the repository for the LinkedIn Learning course `playwright-essential-training`. The full course is available from [LinkedIn Learning][lil-course-url].",
   "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "test": "npx playwright test",
     "test:chromium": "npx playwright test --project chromium",
@@ -15,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.50.1",
+    "@playwright/test": "^1.51.1",
     "@types/node": "^22.13.4",
     "dotenv": "^16.4.7"
   }
