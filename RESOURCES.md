@@ -8,12 +8,18 @@ This course is an extension of Butch Mayhew's course [Learning Playwright](https
 
 ## 00_02 What You Need to Know
 
+- [Learning Playwright](https://www.linkedin.com/learning/learning-playwright/)
+- [Playwright Docs: Getting Started](https://playwright.dev/docs/intro)
+
 ## 00_03 Using the Github Exercise Files
 
 ## 00_04 Cloning the Repository and Installation
 
 - [GitHub: Using Repositories](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories)
 - [GitHub: Desktop App](https://github.com/apps/desktop)
+- [Node Prebuilt Installer](https://nodejs.org/en/download/prebuilt-installer/)
+- [VS Code](https://code.visualstudio.com/)
+- [Playwright Test for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright)
 
 ## 00_05 Overview of the Website Under Test
 
@@ -38,6 +44,7 @@ This course is an extension of Butch Mayhew's course [Learning Playwright](https
 ## 01_05 Creating a Data Factory for Playwright Tests
 
 - [Playwright Essential Branch 01_05b](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/01_05b)
+- [Playwright Docs: API Requests](https://playwright.dev/docs/api/class-apirequest)
 - [Playwright Essential Branch 01_05e](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/01_05e)
 
 ## 01_06 Creating Helpers for Playwright Tests
@@ -97,6 +104,10 @@ This course is an extension of Butch Mayhew's course [Learning Playwright](https
 ## 02_04 Overview of Advanced Fixtures in Playwright
 
 - [Playwright Essential Branch 02_04b](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/02_04b)
+- [Playwright Docs: Overriding Fixtures](https://playwright.dev/docs/test-fixtures#overriding-fixtures)
+- [Playwright Docs: Worker Scoped Fixtures](https://playwright.dev/docs/test-fixtures#overrhttps://playwright.dev/docs/test-fixtures#worker-scoped-fixtures)
+- [Playwright Docs: Automatic Fixtures](https://playwright.dev/docs/test-fixtures#automatic-fixtures)
+- [Playwright Docs: Execution Order](https://playwright.dev/docs/test-fixtures#execution-order)
 - [Playwright Docs: Combine Fixtures](https://playwright.dev/docs/test-fixtures#combine-custom-fixtures-from-multiple-modules)
 - [Playwright Essential Branch 02_04e](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/02_04e)
 
@@ -106,6 +117,7 @@ This course is an extension of Butch Mayhew's course [Learning Playwright](https
 - [Playwright Docs: Test Fixtures](https://playwright.dev/docs/test-fixtures)
 - [Playwright Docs: Extending Expects](https://playwright.dev/docs/test-assertions#add-custom-matchers-using-expectextend)
 - [Playwright Docs: Combine Custom Matchers](https://playwright.dev/docs/test-assertions#combine-custom-matchers-from-multiple-modules)
+- [Playwright Docs: Combine Fixtures](https://playwright.dev/docs/test-fixtures#combine-custom-fixtures-from-multiple-modules)
 - [Playwright Essential Branch 02_05e](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/02_05e)
 
 ## 02_06 Challenge: Update Message Test To Use Fixtures
