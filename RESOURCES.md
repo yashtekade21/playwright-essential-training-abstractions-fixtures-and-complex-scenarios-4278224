@@ -74,7 +74,8 @@ This course is an extension of Butch Mayhew's course [Learning Playwright](https
 - Test Steps:
   - Login with user.
   - Create a message through [/contact](https://practicesoftwaretesting.com/contact) page.
-  - Click details.
+  - View the [/account/messages](https://practicesoftwaretesting.com/account/messages) page form a logged in user.
+  - Click to see the details of the message.
   - Validate the text in the original message.
   - Add a text reply.
   - Make an assertion to validate the reply shows up in the replies section.
