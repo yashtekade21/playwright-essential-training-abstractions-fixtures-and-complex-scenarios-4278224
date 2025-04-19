@@ -86,3 +86,45 @@ test.describe("Home page customer 01 auth", () => {
     }
   });
 });
+
+test("validate product data is visible from modified API", async ({ page }) => {
+  await test.step("overwrite /products", async () => {
+    await page.route(
+      "https://api.practicesoftwaretesting.com/products**",
+      async (route) => {
+        const response = await route.fetch();
+        const json = await response.json();
+        json.data[0]["name"] = "Mocked Product";
+        json.data[0]["price"] = 100000.01;
+        json.data[0]["in_stock"] = false;
+
+        await route.fulfill({ response, json });
+      }
+    );
+  });
+  await page.goto("/");
+
+  const productGrid = page.locator(".col-md-9");
+  await expect(productGrid.getByRole("link").first()).toContainText(
+    "Mocked Product"
+  );
+  await expect(productGrid.getByRole("link").first()).toContainText(
+    "100000.01"
+  );
+  await expect(productGrid.getByRole("link").first()).toContainText(
+    "Out of stock"
+  );
+});
+
+test("validate product data is loaded from har file", async ({ page }) => {
+  await test.step("Mock /products", async () => {
+    await page.routeFromHAR(".hars/product.har", {
+      url: "https://api.practicesoftwaretesting.com/products**",
+      update: false,
+    });
+  });
+  await page.goto("/");
+  const productGrid = page.locator(".col-md-9");
+  await expect(productGrid).toContainText("Happy Path Pliers");
+  await expect(productGrid).toContainText("1.99");
+});
