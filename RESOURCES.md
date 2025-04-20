@@ -171,6 +171,21 @@ This course is an extension of Butch Mayhew's course [Learning Playwright](https
 ## 03_06 Injecting Javascript in Playwright
 
 - [Playwright Essential Branch 03_06b](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/03_06b)
+
+```javascript
+// Find inputs that are missing labels on page
+Array.from(document.querySelectorAll("input"))
+  .filter((input) => !document.querySelector(`label[for="${input.id}"]`))
+  .map((input) => input.outerHTML);
+```
+
+```javascript
+// Find broken images on page
+Array.from(document.querySelectorAll("img"))
+  .filter((img) => img.naturalWidth === 0 || img.naturalHeight === 0)
+  .map((img) => img.src);
+```
+
 - [Playwright Docs: Evaluating Javascript](https://playwright.dev/docs/evaluating)
 - [Playwright Essential Branch 03_06e](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/03_06e)
 
