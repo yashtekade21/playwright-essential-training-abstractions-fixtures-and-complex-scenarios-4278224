@@ -2,7 +2,7 @@ import { test, expect } from "@playwright/test";
 
 test.describe("Home page with no auth", () => {
   test.beforeEach(async ({ page }) => {
-    await page.goto("https://practicesoftwaretesting.com/");
+    await page.goto("/");
   });
 
   test("visual test", async ({ page, headless }) => {
@@ -76,7 +76,7 @@ test.describe("Home page with no auth", () => {
 test.describe("Home page customer 01 auth", () => {
   test.use({ storageState: ".auth/customer01.json" });
   test.beforeEach(async ({ page }) => {
-    await page.goto("https://practicesoftwaretesting.com/");
+    await page.goto("/");
   });
 
   test("visual test authorized", async ({ page, headless }) => {
@@ -96,21 +96,20 @@ test.describe("Home page customer 01 auth", () => {
 
   test("validate product data is visible in UI from API", async ({ page }) => {
     let products: any;
+    let apiUrl = process.env.API_URL;
     await test.step("intercept /products", async () => {
-      await page.route(
-        "https://api.practicesoftwaretesting.com/products**",
-        async (route) => {
-          const response = await route.fetch();
-          products = await response.json();
-          route.continue();
-        }
-      );
+      await page.route(apiUrl + "/products**", async (route) => {
+        const response = await route.fetch();
+        products = await response.json();
+        route.continue();
+      });
     });
 
     await page.goto("/");
 
-    await expect(page.locator(".skeleton").first()).not.toBeVisible();
     const productGrid = page.locator(".col-md-9");
+    await expect(productGrid).toBeVisible();
+    await expect(page.locator(".skeleton").first()).not.toBeVisible();
 
     for (const product of products.data) {
       await expect(productGrid).toContainText(product.name);
@@ -120,19 +119,17 @@ test.describe("Home page customer 01 auth", () => {
 });
 
 test("validate product data is visible from modified API", async ({ page }) => {
+  let apiUrl = process.env.API_URL;
   await test.step("overwrite /products", async () => {
-    await page.route(
-      "https://api.practicesoftwaretesting.com/products**",
-      async (route) => {
-        const response = await route.fetch();
-        const json = await response.json();
-        json.data[0]["name"] = "Mocked Product";
-        json.data[0]["price"] = 100000.01;
-        json.data[0]["in_stock"] = false;
+    await page.route(apiUrl + "/products**", async (route) => {
+      const response = await route.fetch();
+      const json = await response.json();
+      json.data[0]["name"] = "Mocked Product";
+      json.data[0]["price"] = 100000.01;
+      json.data[0]["in_stock"] = false;
 
-        await route.fulfill({ response, json });
-      }
-    );
+      await route.fulfill({ response, json });
+    });
   });
   await page.goto("/");
 
@@ -149,9 +146,10 @@ test("validate product data is visible from modified API", async ({ page }) => {
 });
 
 test("validate product data is loaded from har file", async ({ page }) => {
+  const apiUrl = process.env.API_URL;
   await test.step("Mock /products", async () => {
     await page.routeFromHAR(".hars/product.har", {
-      url: "https://api.practicesoftwaretesting.com/products**",
+      url: apiUrl + "/products**",
       update: false,
     });
   });

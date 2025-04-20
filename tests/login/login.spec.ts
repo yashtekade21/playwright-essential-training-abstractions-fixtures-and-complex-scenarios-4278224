@@ -2,8 +2,11 @@ import { test, expect } from "@fixtures/base.fixture";
 import { LoginPage } from "@pages/login/login.page";
 import { registerUser } from "@datafactory/register";
 
-test("login without page object", async ({ page }) => {
-  await page.goto("https://practicesoftwaretesting.com/");
+test("login without page object", async ({ page, isMobile }) => {
+  await page.goto("/");
+  if (isMobile === true) {
+    await page.getByLabel("Toggle navigation").click();
+  }
   await page.locator('[data-test="nav-sign-in"]').click();
   await page
     .locator('[data-test="email"]')
