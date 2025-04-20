@@ -42,6 +42,35 @@ test.describe("Home page with no auth", () => {
     await expect(productGrid.getByRole("link")).toHaveCount(1);
     await expect(page.getByAltText("Thor Hammer")).toBeVisible();
   });
+
+  test("check for inputs without labels", async ({ page }) => {
+    // await page.goto("https://with-bugs.practicesoftwaretesting.com/");
+
+    const inputsWithoutLabels = await page.evaluate(() => {
+      // Find inputs that are missing labels on page
+      return Array.from(document.querySelectorAll("input"))
+        .filter((input) => !document.querySelector(`label[for="${input.id}"]`))
+        .map((input) => input.outerHTML);
+    });
+    expect(
+      inputsWithoutLabels.length,
+      `Labels with issues: ${inputsWithoutLabels.toString()}`
+    ).toBe(0);
+  });
+
+  test("check for broken images", async ({ page }) => {
+    // await page.goto("https://with-bugs.practicesoftwaretesting.com/");
+
+    const brokenImages = await page.evaluate(() => {
+      return Array.from(document.querySelectorAll("img"))
+        .filter((img) => img.naturalWidth === 0 || img.naturalHeight === 0)
+        .map((img) => img.src);
+    });
+    expect(
+      brokenImages.length,
+      `Broken Images: ${brokenImages.toString()}`
+    ).toBe(0);
+  });
 });
 
 test.describe("Home page customer 01 auth", () => {
