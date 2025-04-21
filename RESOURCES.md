@@ -218,17 +218,14 @@ Array.from(document.querySelectorAll("img"))
 
 ## 04_03 Retrying Tests in Playwright
 
-- [Playwright Essential Branch 04_03b](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/04_03b)
 - [Playwright Docs: Retries](https://playwright.dev/docs/test-retries#retries)
 - [Playwright Docs: Repeat Each](<https://playwright.dev/docs/test-cli#reference:~:text=%2D%2Drepeat%2Deach%20%3CN,times%20(default%3A%201).>)
-- [Playwright Essential Branch 04_03e](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/04_03e)
 
 ## 04_04 Overview of Timeouts in Playwright
 
-- [Playwright Essential Branch 04_04b](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/04_04b)
 - [Playwright Docs: Test Timeouts](https://playwright.dev/docs/test-timeouts#advanced-low-level-timeouts)
 - [Playwright Docs: Fixture Timeouts](https://playwright.dev/docs/test-timeouts#fixture-timeout)
-- [Playwright Essential Branch 04_04e](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/04_04e)
+- [Playwright Essential Branch 04_04e](https://github.com/
 
 ## 05_01 Working with Multiple Windows and Popups in Playwright
 
