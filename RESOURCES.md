@@ -206,6 +206,7 @@ Array.from(document.querySelectorAll("img"))
 
 - [Playwright Essential Branch 04_01b](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/04_01b)
 - [Playwright Docs: Test Configuration](https://playwright.dev/docs/test-configuration)
+- [Playwright Docs: Configuring a Web Server](https://playwright.dev/docs/test-webserver#configuring-a-web-server)
 - [Learning Playwright: Updating the Playwright Config](https://www.linkedin.com/learning/learning-playwright/updating-the-playwright-config?resume=false)
 - [Playwright Essential Branch 04_01e](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/04_01e)
 
