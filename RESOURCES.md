@@ -230,14 +230,14 @@ Array.from(document.querySelectorAll("img"))
 ## 05_01 Working with Multiple Windows and Popups in Playwright
 
 - [Playwright Essential Branch 05_01b](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/05_01b)
-  [Playwright Docs: Multiple Pages](https://playwright.dev/docs/pages#multiple-pages)
-  [Playwright Docs: iFrames](https://playwright.dev/docs/frames#frame-objects)
+- [Playwright Docs: Multiple Pages](https://playwright.dev/docs/pages#multiple-pages)
+- [Playwright Docs: iFrames](https://playwright.dev/docs/frames#frame-objects)
 - [Playwright Essential Branch 05_01e](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/05_01e)
 
 ## 05_02 Working with Alerts and Dialogs in Playwright
 
 - [Playwright Essential Branch 05_02b](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/05_02b)
-  [Playwright Docs: Alerts and Dialogs](https://playwright.dev/docs/dialogs#alert-confirm-prompt-dialogs)
+- [Playwright Docs: Alerts and Dialogs](https://playwright.dev/docs/dialogs#alert-confirm-prompt-dialogs)
 - [Playwright Essential Branch 05_02e](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/05_02e)
 
 ## 05_03 Working with Uploads and Downloads in Playwright
@@ -254,6 +254,12 @@ Array.from(document.querySelectorAll("img"))
 - [Playwright Essential Branch 05_04e](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/05_04e)
 
 ## 06_01 Next Steps
+
+- [Playwright Docs](https://playwright.dev/)
+- [Playwright Docs: Release Notes](https://playwright.dev/docs/release-notes)
+- [Playwright Youtube Channel](https://www.youtube.com/@Playwrightdev/featured)
+- [Playwright Discord](https://discord.com/servers/playwright-807756831384403968)
+- [Playwright GitHub](https://github.com/microsoft/playwright)
 
 ### Connect with Butch Mayhew
 
