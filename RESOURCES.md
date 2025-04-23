@@ -21,6 +21,7 @@ This course is an extension of Butch Mayhew's course [Learning Playwright](https
 - [GitHub: Using Repositories](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories)
 - [GitHub: Desktop App](https://github.com/apps/desktop)
 - [Node Prebuilt Installer](https://nodejs.org/en/download/prebuilt-installer/)
+- [Configuring SSH and Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 - [VS Code](https://code.visualstudio.com/)
 - [Playwright Test for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright)
 
