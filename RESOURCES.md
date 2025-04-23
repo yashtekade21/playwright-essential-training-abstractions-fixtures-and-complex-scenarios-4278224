@@ -108,13 +108,11 @@ This course is an extension of Butch Mayhew's course [Learning Playwright](https
 
 ## 02_04 Overview of Advanced Fixtures in Playwright
 
-- [Playwright Essential Branch 02_04b](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/02_04b)
 - [Playwright Docs: Overriding Fixtures](https://playwright.dev/docs/test-fixtures#overriding-fixtures)
 - [Playwright Docs: Worker Scoped Fixtures](https://playwright.dev/docs/test-fixtures#overrhttps://playwright.dev/docs/test-fixtures#worker-scoped-fixtures)
 - [Playwright Docs: Automatic Fixtures](https://playwright.dev/docs/test-fixtures#automatic-fixtures)
 - [Playwright Docs: Execution Order](https://playwright.dev/docs/test-fixtures#execution-order)
 - [Playwright Docs: Combine Fixtures](https://playwright.dev/docs/test-fixtures#combine-custom-fixtures-from-multiple-modules)
-- [Playwright Essential Branch 02_04e](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/02_04e)
 
 ## 02_05 Implementing an Advanced Fixture in Playwright
 
@@ -229,7 +227,6 @@ Array.from(document.querySelectorAll("img"))
 
 - [Playwright Docs: Test Timeouts](https://playwright.dev/docs/test-timeouts#advanced-low-level-timeouts)
 - [Playwright Docs: Fixture Timeouts](https://playwright.dev/docs/test-timeouts#fixture-timeout)
-- [Playwright Essential Branch 04_04e](https://github.com/
 
 ## 05_01 Working with Multiple Windows and Popups in Playwright
 
