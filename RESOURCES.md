@@ -9,6 +9,9 @@ This course is an extension of Butch Mayhew's course [Learning Playwright](https
 ## 00_02 What You Need to Know
 
 - [Learning Playwright](https://www.linkedin.com/learning/learning-playwright/)
+- [Node Prebuilt Installer](https://nodejs.org/en/download/prebuilt-installer)
+- [VS Code](https://code.visualstudio.com/)
+- [VS Code Playwright Extension](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright)
 - [Playwright Docs: Getting Started](https://playwright.dev/docs/intro)
 
 ## 00_03 Using the Github Exercise Files
