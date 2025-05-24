@@ -9,6 +9,9 @@ This course is an extension of Butch Mayhew's course [Learning Playwright](https
 ## 00_02 What You Need to Know
 
 - [Learning Playwright](https://www.linkedin.com/learning/learning-playwright/)
+- [Node Prebuilt Installer](https://nodejs.org/en/download/prebuilt-installer)
+- [VS Code](https://code.visualstudio.com/)
+- [VS Code Playwright Extension](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright)
 - [Playwright Docs: Getting Started](https://playwright.dev/docs/intro)
 
 ## 00_03 Using the Github Exercise Files
@@ -18,6 +21,7 @@ This course is an extension of Butch Mayhew's course [Learning Playwright](https
 - [GitHub: Using Repositories](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories)
 - [GitHub: Desktop App](https://github.com/apps/desktop)
 - [Node Prebuilt Installer](https://nodejs.org/en/download/prebuilt-installer/)
+- [Configuring SSH and Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 - [VS Code](https://code.visualstudio.com/)
 - [Playwright Test for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright)
 
@@ -104,13 +108,11 @@ This course is an extension of Butch Mayhew's course [Learning Playwright](https
 
 ## 02_04 Overview of Advanced Fixtures in Playwright
 
-- [Playwright Essential Branch 02_04b](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/02_04b)
 - [Playwright Docs: Overriding Fixtures](https://playwright.dev/docs/test-fixtures#overriding-fixtures)
 - [Playwright Docs: Worker Scoped Fixtures](https://playwright.dev/docs/test-fixtures#overrhttps://playwright.dev/docs/test-fixtures#worker-scoped-fixtures)
 - [Playwright Docs: Automatic Fixtures](https://playwright.dev/docs/test-fixtures#automatic-fixtures)
 - [Playwright Docs: Execution Order](https://playwright.dev/docs/test-fixtures#execution-order)
 - [Playwright Docs: Combine Fixtures](https://playwright.dev/docs/test-fixtures#combine-custom-fixtures-from-multiple-modules)
-- [Playwright Essential Branch 02_04e](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/02_04e)
 
 ## 02_05 Implementing an Advanced Fixture in Playwright
 
@@ -212,9 +214,11 @@ Array.from(document.querySelectorAll("img"))
 
 ## 04_02 Optimizing Playwright: Workers and Sharding
 
+- [Playwright Essential Branch 04_02b](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/04_02b)
 - [Playwright Docs: Worker Processes](https://playwright.dev/docs/test-parallel#worker-processes)
 - [Playwright Docs: Parallelization](https://playwright.dev/docs/test-parallel)
 - [Playwright Docs: Sharding Guide](https://playwright.dev/docs/test-sharding)
+- [Playwright Essential Branch 04_02e](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/04_02e)
 
 ## 04_03 Retrying Tests in Playwright
 
@@ -233,14 +237,14 @@ Array.from(document.querySelectorAll("img"))
 ## 05_01 Working with Multiple Windows and Popups in Playwright
 
 - [Playwright Essential Branch 05_01b](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/05_01b)
-  [Playwright Docs: Multiple Pages](https://playwright.dev/docs/pages#multiple-pages)
-  [Playwright Docs: iFrames](https://playwright.dev/docs/frames#frame-objects)
+- [Playwright Docs: Multiple Pages](https://playwright.dev/docs/pages#multiple-pages)
+- [Playwright Docs: iFrames](https://playwright.dev/docs/frames#frame-objects)
 - [Playwright Essential Branch 05_01e](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/05_01e)
 
 ## 05_02 Working with Alerts and Dialogs in Playwright
 
 - [Playwright Essential Branch 05_02b](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/05_02b)
-  [Playwright Docs: Alerts and Dialogs](https://playwright.dev/docs/dialogs#alert-confirm-prompt-dialogs)
+- [Playwright Docs: Alerts and Dialogs](https://playwright.dev/docs/dialogs#alert-confirm-prompt-dialogs)
 - [Playwright Essential Branch 05_02e](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/05_02e)
 
 ## 05_03 Working with Uploads and Downloads in Playwright
@@ -257,6 +261,12 @@ Array.from(document.querySelectorAll("img"))
 - [Playwright Essential Branch 05_04e](https://github.com/LinkedInLearning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios-4278224/tree/05_04e)
 
 ## 06_01 Next Steps
+
+- [Playwright Docs](https://playwright.dev/)
+- [Playwright Docs: Release Notes](https://playwright.dev/docs/release-notes)
+- [Playwright Youtube Channel](https://www.youtube.com/@Playwrightdev/featured)
+- [Playwright Discord](https://discord.com/servers/playwright-807756831384403968)
+- [Playwright GitHub](https://github.com/microsoft/playwright)
 
 ### Connect with Butch Mayhew
 
