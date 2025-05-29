@@ -2,6 +2,18 @@
 
 This is the repository for the LinkedIn Learning course Playwright Essential Training: Abstractions, Fixtures, and Complex Scenarios. The full course is available from [LinkedIn Learning][lil-course-url].
 
+
+![Playwright Essential Training: Abstractions, Fixtures, and Complex Scenarios][lil-thumbnail-url] 
+
+Playwright is a newer tool that has joined the ranks of Cypress and Selenium in open-source automation tooling. Playwright works right out of the box, and its comprehensive feature set allows testers and developers to quickly create new test automation projects without having to rely on combining multiple libraries and tools together. Whether you are a manual tester looking to dip your toes into test automation or a seasoned test automation engineer, check out this course to get hands-on experience with the top features that make Playwright a great choice for your automated tests. Instructor Butch Mayhew takes you through some advanced features and covers best practices for writing, running, and maintaining tests as you scale with Playwright.
+
+Learning objectives
+- Decide the best way to create and manage test data within a Playwright project.
+- Recommend the right types of abstractions to make with a Playwright project.
+- Create custom page objects and fixtures within your Playwright project.
+- Design tests that utilize the different network interceptions, mocks, and modifications within a Playwright test.
+- Determine the necessary Playwright test and project configurations needed to make your Playwright project efficient.
+
 _See the readme file in the main branch for updated instructions and information._
 
 ## Instructions
@@ -45,5 +57,5 @@ Instructor description
 Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/butch-mayhew/).
 
 [0]: # "Replace these placeholder URLs with actual course URLs"
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+[lil-course-url]: https://www.linkedin.com/learning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQE9lAhxTlWiCg/learning-public-crop_675_1200/B4EZcYCy.PHsAc-/0/1748455076488?e=2147483647&v=beta&t=CPHzDNayYyzEjIJFGfimqD6l_PUS5tJY7f9d8NmHDqE
